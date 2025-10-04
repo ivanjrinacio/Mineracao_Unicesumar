@@ -1,6 +1,6 @@
 # Projeto de Mineração de Dados: Análise e Previsão de Evasão Escolar
 
-Este projeto, desenvolvido para a disciplina de **[Nome da sua Disciplina, ex: BANCO DE DADOS E MINERAÇÃO]**, explora a aplicação de técnicas de mineração de dados para identificar e prever a evasão escolar. O objetivo é analisar fatores de risco e propor estratégias de intervenção com base em dados de estudantes.
+Este projeto, desenvolvido para a disciplina de **Banco de dados e mineração**, explora a aplicação de técnicas de mineração de dados para identificar e prever a evasão escolar. O objetivo é analisar fatores de risco e propor estratégias de intervenção com base em dados de estudantes.
 
 ---
 
@@ -44,4 +44,16 @@ Nesta etapa, as técnicas de mineração de dados foram aplicadas para extrair i
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python:** Linguagem de programação principal.
-- **Pandas:** Para manipulação e análise
+- **Pandas:** Para manipulação e análise.
+- - **Numpy:** Para operações numéricas e geração de dados.
+- **Scikit-learn (Opcional):** Para a aplicação de modelos de Machine Learning.
+- **Jupyter Notebook (Opcional):** Ambiente para execução e documentação do código.
+
+---
+
+## 📂 Estrutura do Repositório
+
+- `README.md`: Este arquivo.
+- `dados_brutos.csv`: Planilha com o conjunto de dados inicial (antes da prepação).
+- `dados_preparados.csv`: Planilha com o conjunto de dados final expandido e preparado.
+- `analise_projeto.ipynb`: Arquivo com o código-fonte utilizado para a análise, incluindo a preparação dos dados, a aplicação das técnicas de mineração e a interpretação dos resultados.
