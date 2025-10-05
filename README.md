@@ -35,8 +35,8 @@ Nesta etapa, técnicas de mineração de dados foram aplicadas para extrair insi
 
 A análise revelou três perfis de alunos distintos, agrupados por seu nível de risco. Os gráficos a seguir demonstram as principais diferenças entre eles:
 
-<img src="Média da nota vs Falta por cluster.png" alt="Média das Porcentagens por Cluster de Risco">
-<img src="Outras porcentagens vs Falta por cluster.png" alt="Relação entre Faltas e Notas, por Cluster de Risco">
+<img src="cluster_relacao_notas_faltas.png" alt="Média das Porcentagens por Cluster de Risco">
+<img src="cluster_medias.png" alt="Relação entre Faltas e Notas, por Cluster de Risco">
 
 **Interpretação:**
 -   **Cluster 0 (Risco Baixo):** Alunos com as melhores notas e maior frequência.
