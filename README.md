@@ -35,8 +35,8 @@ Nesta etapa, técnicas de mineração de dados foram aplicadas para extrair insi
 
 A análise revelou três perfis de alunos distintos, agrupados por seu nível de risco. Os gráficos a seguir demonstram as principais diferenças entre eles:
 
-<img src="URL_DO_SEU_GRAFICO_1.png" alt="Média das Porcentagens por Cluster de Risco">
-<img src="URL_DO_SEU_GRAFICO_2.png" alt="Relação entre Faltas e Notas, por Cluster de Risco">
+<img src="Média da nota vs Falta por cluster.png" alt="Média das Porcentagens por Cluster de Risco">
+<img src="Outras porcentagens vs Falta por cluster.png" alt="Relação entre Faltas e Notas, por Cluster de Risco">
 
 **Interpretação:**
 -   **Cluster 0 (Risco Baixo):** Alunos com as melhores notas e maior frequência.
@@ -63,3 +63,5 @@ A análise revelou três perfis de alunos distintos, agrupados por seu nível de
 * `dados_limpos.csv`: Planilha com o conjunto de dados final, após a preparação.
 * `analise_projeto.ipynb`: Arquivo com o código-fonte utilizado para a análise, incluindo a preparação dos dados, a aplicação das técnicas de mineração e a interpretação dos resultados.
 * `Relatório da Análise dos Dados.md`: Análise e interpretação dos dados em formato de relatório.
+* `Média da nota vs Falta por cluster.png`: Gráfico que mostra a Média das Porcentagens por Cluster de Risco
+* `Outras porcentagens vs Falta por cluster.png`: Gráfico que mostra a Relação entre Faltas e Notas, por Cluster de Risco
