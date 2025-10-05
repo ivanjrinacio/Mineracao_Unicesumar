@@ -15,6 +15,7 @@ Nesta fase, o foco foi a elaboração e o pré-processamento de um conjunto de d
 
 - **Elaboração dos Dados:** Foi criado um arquivo .csv contendo dados fictícios, mas realistas, sobre estudantes, com o objetivo de simular um cenário de análise de evasão.
 - **Limpeza e Organização:**
+  - Remoção de dados nulos.
   - Remoção de duplicatas para garantir a unicidade de cada registro de aluno.
   - Normalização dos formatos de dados (ex: conversão de porcentagens e tratamento de valores categóricos).
   - Correção de inconsistências para assegurar a integridade do conjunto de dados.
@@ -47,8 +48,9 @@ Nesta etapa, as técnicas de mineração de dados foram aplicadas para extrair i
 - **Python:** Linguagem de programação principal.
 - **Pandas:** Para manipulação e análise.
 - - **Numpy:** Para operações numéricas e geração de dados.
-- **Scikit-learn (Opcional):** Para a aplicação de modelos de Machine Learning.
-- **Jupyter Notebook (Opcional):** Ambiente para execução e documentação do código.
+- **Scikit-learn:** Para a aplicação de modelos de Machine Learning.
+- **matplotlib:** Para...
+- **VSCode:** Ambiente para execução e documentação do código (em .ipynb).
 
 ---
 
