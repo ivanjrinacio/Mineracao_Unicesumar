@@ -1,7 +1,7 @@
 ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Absenteismo_Faltas,Programa_de_Apoio,Participacao_Aulas_Porcentagem,Evasao
 1,Aline Rocha,9.04,88,Sim,3,Sim,88,Não
 2,Luiza Moreira,8.15,99,Sim,4,Sim,96,Não
-3,Fábio Miranda,6.39,53,Não,17,Sim,51,Sim
+3,Fábio Miranda,6.39,53,,17,Sim,51,Sim
 4,Rafaela Pinto,,60,Não,26,Sim,47,Sim
 5,Beatriz Cunha,6.98,70,Não,20,Não,51,Sim
 6,Miguel Cavalcanti,7.52,95,Não,1,Não,87,
@@ -154,5 +154,6 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 149,Laura Lima,9.62,92,Sim,4,Não,99,Não
 
 150,Rafaela Martins,9.8,85,Não,3,Não,84,Não
+
 
 
