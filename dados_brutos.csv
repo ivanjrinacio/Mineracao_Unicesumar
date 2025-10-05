@@ -8,7 +8,7 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 7,Laura Araújo,4.51,66,Sim,22,Sim,54,Sim
 8,Daniela Rodrigues,8.21,88,Sim,3,Sim,92,Não
 9,Giovana Correia,7.35,87,Não,3,Sim,95,Não
-10,Victor Santos,8.41,91,Não,3,Sim,85,Não
+10,,8.41,91,Não,3,Sim,85,Não
 11,Thiago Monteiro,9.8,99,Sim,2,Sim,84,Não
 12,Felipe Araújo,7.09,97,Não,1,Não,88,Não
 13,Ana Borges,8.46,91,Não,3,Não,99,Não
@@ -18,7 +18,7 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 17,Camila Castro,9.91,97,Sim,0,Sim,96,Não
 18,Yasmin Sousa,7.67,90,Sim,1,Não,97,Não
 19,Alexandre Teixeira,9.42,90,Sim,4,Não,89,Não
-20,Rafaela Araújo,9.3,86,Sim,2,Não,86,Não
+20,Rafaela Araújo,9.3,86,,2,Não,86,Não
 21,Marcos Santos,8.9,93,Sim,0,Não,81,Não
 22,Arthur Monteiro,7.42,87,Não,4,Não,89,Não
 23,Nicole Castro,9.14,87,Sim,2,Não,99,Não
@@ -40,7 +40,7 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 39,Elisa Costa,9.0,98,Sim,1,Não,95,Não
 40,Pedro Gonçalves,7.63,93,Sim,3,Sim,93,Não
 41,Daniela Barbosa,9.05,97,Sim,1,Não,90,Não
-42,Eduardo Almeida,7.34,95,Sim,2,Sim,90,Não
+42,Eduardo Almeida,,95,Sim,2,Sim,90,Não
 43,Yasmin Pires,8.68,98,Sim,4,Sim,88,Não
 44,Carla Araújo,8.82,98,Não,3,Não,93,Não
 45,Larissa Reis,7.91,86,Sim,3,Não,93,Não
@@ -70,10 +70,10 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 69,Natalia Borges,7.98,87,Não,1,Não,99,Não
 70,Yasmin Pereira,4.01,71,Não,23,Sim,66,Sim
 71,Otávio Cavalcanti,9.14,98,Não,0,Não,92,Não
-72,Miguel Carvalho,7.78,99,Não,4,Não,99,Não
+72,,7.78,99,Não,4,Não,99,Não
 73,Rodrigo Oliveira,9.48,90,Sim,3,Não,80,Não
 74,Sarah Freitas,8.14,90,Sim,1,Não,97,Não
-75,Paula Miranda,8.27,93,Sim,2,Não,91,Não
+75,Paula Miranda,8.27,93,Sim,2,Não,91,
 76,Rafaela Nascimento,4.01,58,Não,10,Não,46,Sim
 77,Igor Barbosa,7.49,97,Sim,2,Não,96,Não
 78,Sofia Cardoso,8.84,91,Não,2,Não,84,Não
@@ -105,7 +105,7 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 104,Laura Pacheco,7.03,92,Não,3,Sim,81,Não
 105,Felipe Farias,4.63,59,Não,19,Sim,42,Sim
 106,Caio Correia,8.8,95,Não,1,Sim,80,Não
-107,Eduardo Mendes,9.0,92,Sim,4,Não,87,Não
+107,Eduardo Mendes,,92,Sim,4,Não,87,Não
 108,Natalia Rodrigues,8.5,86,Sim,1,Não,90,Não
 109,Carla Mendes,7.1,83,Sim,7,Não,80,Não
 110,Pedro Machado,8.02,98,Sim,0,Sim,97,Não
@@ -127,7 +127,7 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 126,Lucas Mendes,5.91,66,Não,24,Não,53,Sim
 127,Ricardo Sousa,7.46,92,Sim,0,Não,90,Não
 128,Sofia Gomes,7.37,98,Sim,2,Não,97,Não
-129,Diego Souza,8.8,95,Não,1,Não,97,Não
+129,Diego Souza,8.8,95,,1,,97,Não
 130,Thiago Nascimento,8.85,99,Sim,3,Sim,98,Não
 131,Leonardo Correia,5.93,57,Não,16,Não,58,Sim
 132,Caio Ferreira,7.26,99,Sim,0,Não,90,Não
@@ -145,7 +145,8 @@ ID_Aluno,Nome,Nota_Media,Frequencia_Porcentagem,Atividades_Extracurriculares,Abs
 144,Caio Araújo,7.32,86,Não,0,Não,94,Não
 145,Eduardo Freitas,8.69,95,Sim,4,Não,82,Não
 146,Leonardo Rocha,8.45,90,Não,1,Não,94,Não
-147,Fernanda Cardoso,8.28,92,Sim,0,Não,84,Não
-148,Gabriel Teixeira,8.07,89,Sim,0,Não,90,Não
+147,Fernanda Cardoso,8.28,92,Sim,,Não,84,Não
+148,Gabriel Teixeira,8.07,89,Sim,,Não,90,Não
 149,Laura Lima,9.62,92,Sim,4,Não,99,Não
+
 150,Rafaela Martins,9.8,85,Não,3,Não,84,Não
