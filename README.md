@@ -1,4 +1,5 @@
-# Projeto de Mineração de Dados: Análise e Previsão de Evasão Escolar
+# Projeto de Mineração de Dados
+## Análise e Previsão de Evasão Escolar
 
 Este projeto, desenvolvido para a disciplina de **Banco de dados e mineração**, explora a aplicação de técnicas de mineração de dados para identificar e prever a evasão escolar. O objetivo é analisar fatores de risco e propor estratégias de intervenção com base em dados de estudantes.
 
@@ -12,7 +13,7 @@ O projeto foi dividido em duas etapas principais, conforme solicitado na ativida
 
 Nesta fase, o foco foi a elaboração e o pré-processamento de um conjunto de dados robusto e limpo, essencial para a qualidade da análise futura. As seguintes ações foram realizadas:
 
-- **Elaboração da Planilha de Dados:** Foi criada uma planilha contendo dados fictícios, mas realistas, sobre estudantes, com o objetivo de simular um cenário de análise de evasão.
+- **Elaboração dos Dados:** Foi criado um arquivo .csv contendo dados fictícios, mas realistas, sobre estudantes, com o objetivo de simular um cenário de análise de evasão.
 - **Limpeza e Organização:**
   - Remoção de duplicatas para garantir a unicidade de cada registro de aluno.
   - Normalização dos formatos de dados (ex: conversão de porcentagens e tratamento de valores categóricos).
