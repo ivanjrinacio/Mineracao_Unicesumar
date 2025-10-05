@@ -1,4 +1,5 @@
 # Projeto de Mineração de Dados
+
 ## Análise e Previsão de Evasão Escolar
 
 Este projeto, desenvolvido para a disciplina de **Banco de dados e mineração**, explora a aplicação de técnicas de mineração de dados para identificar e prever a evasão escolar. O objetivo é analisar fatores de risco e propor estratégias de intervenção com base em dados de estudantes.
@@ -7,56 +8,58 @@ Este projeto, desenvolvido para a disciplina de **Banco de dados e mineração**
 
 ## 🚀 Etapas do Projeto
 
-O projeto foi dividido em duas etapas principais, conforme solicitado na atividade.
+O projeto foi dividido em duas etapas principais para garantir uma análise completa e eficaz.
 
 ### Etapa 1: Coleta e Preparação de Dados
 
-Nesta fase, o foco foi a elaboração e o pré-processamento de um conjunto de dados robusto e limpo, essencial para a qualidade da análise futura. As seguintes ações foram realizadas:
+Nesta fase, o foco foi a elaboração e o pré-processamento de um conjunto de dados robusto e limpo, essencial para a qualidade da análise futura.
 
-- **Elaboração dos Dados:** Foi criado um arquivo .csv contendo dados fictícios, mas realistas, sobre estudantes, com o objetivo de simular um cenário de análise de evasão.
-- **Limpeza e Organização:**
-  - Remoção de dados nulos.
-  - Remoção de duplicatas para garantir a unicidade de cada registro de aluno.
-  - Normalização dos formatos de dados (ex: conversão de porcentagens e tratamento de valores categóricos).
-  - Correção de inconsistências para assegurar a integridade do conjunto de dados.
-- **Seleção de Atributos:** Os atributos foram cuidadosamente selecionados com base em sua relevância para a evasão escolar. A planilha final contém os seguintes campos:
-  - `ID do Aluno`
-  - `Nome`
-  - `Nota Média`
-  - `Frequência (%)`
-  - `Participação em Atividades Extracurriculares`
-  - `Absenteísmo (número de faltas)`
-  - `Participação em Programa de Apoio (Sim/Não)`
-  - `Participação nas Aulas (%)`
-  - `Evasão (Sim/Não)`
+* **Elaboração dos Dados:** Foi criado um arquivo `.csv` contendo dados fictícios, mas realistas, sobre estudantes para simular um cenário de análise de evasão.
+* **Limpeza e Organização:**
+    * Remoção de dados nulos.
+    * Remoção de duplicatas para garantir a unicidade de cada registro.
+    * Normalização de formatos de dados (por exemplo, conversão de porcentagens e tratamento de valores categóricos).
+* **Seleção de Atributos:** Os atributos foram selecionados com base na sua relevância para a evasão escolar. A planilha final contém campos como `Nota Média`, `Frequência`, `Absenteísmo` e `Participação em Atividades`.
 
 ### Etapa 2: Análise e Tomada de Decisões
 
-Nesta etapa, as técnicas de mineração de dados foram aplicadas para extrair insights valiosos e tomar decisões informadas sobre a evasão.
+Nesta etapa, técnicas de mineração de dados foram aplicadas para extrair insights valiosos e tomar decisões informadas sobre a evasão (análise presente no documento relatório).
 
-- **Aplicação de Técnicas de Mineração:** Foram utilizadas técnicas como **Agrupamento (Clustering)** e **Classificação (Árvore de Decisão)** para identificar padrões e agrupar alunos com perfis de risco semelhantes.
-- **Desenvolvimento do Score de Risco de Evasão:** Um **Score de Risco** foi calculado para cada aluno, variando de 0 a 100, para quantificar a probabilidade de evasão. Este score foi desenvolvido com base em uma fórmula de ponderação dos atributos considerados mais relevantes.
-- **Interpretação e Proposta de Ações:** Com base na análise dos dados, foram identificados os principais fatores associados à evasão (baixas notas, alta frequência de faltas e baixa participação). A partir disso, foram propostas estratégias de intervenção personalizadas, como:
-  - **Tutorias:** Para alunos com baixo desempenho acadêmico.
-  - **Aconselhamento Pedagógico:** Para abordar as causas do absenteísmo.
-  - **Incentivo à Participação:** Para engajar alunos em atividades extracurriculares e fortalecer o vínculo com a instituição.
+* **Aplicação de Técnicas de Mineração:** Foram utilizadas técnicas de **Agrupamento (Clustering)** para identificar padrões e **Classificação (Árvore de Decisão)** para prever a evasão.
+* **Desenvolvimento do Score de Risco de Evasão:** Um **Score de Risco**, de 0 a 100, foi calculado para cada aluno, quantificando a probabilidade de evasão.
+* **Interpretação e Proposta de Ações:** Com base na análise, foram identificados os principais fatores associados à evasão (baixas notas, alta frequência de faltas e baixa participação), o que permitiu propor estratégias de intervenção personalizadas.
+
+---
+
+## 📊 Visualização e Resultados
+
+A análise revelou três perfis de alunos distintos, agrupados por seu nível de risco. Os gráficos a seguir demonstram as principais diferenças entre eles:
+
+<img src="URL_DO_SEU_GRAFICO_1.png" alt="Média das Porcentagens por Cluster de Risco">
+<img src="URL_DO_SEU_GRAFICO_2.png" alt="Relação entre Faltas e Notas, por Cluster de Risco">
+
+**Interpretação:**
+-   **Cluster 0 (Risco Baixo):** Alunos com as melhores notas e maior frequência.
+-   **Cluster 1 (Risco Alto):** Alunos com as piores notas e maior número de faltas.
+-   **Cluster 2 (Risco Médio):** Alunos com notas razoáveis, mas baixa frequência.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python:** Linguagem de programação principal.
-- **Pandas:** Para manipulação e análise.
-- - **Numpy:** Para operações numéricas e geração de dados.
-- **Scikit-learn:** Para a aplicação de modelos de Machine Learning.
-- **matplotlib:** Para...
-- **VSCode:** Ambiente para execução e documentação do código (em .ipynb).
+* **Python:** Linguagem de programação principal para desenvolvimento e análise.
+* **Pandas:** Para manipulação e análise de dados.
+* **Numpy:** Para operações numéricas e geração de dados.
+* **Scikit-learn:** Para a aplicação de modelos de Machine Learning.
+* **Matplotlib:** Para a visualização dos dados e geração de gráficos.
+* **VSCode:** Ambiente para execução e documentação do código (em `.ipynb`).
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-- `README.md`: Este arquivo.
-- `dados_brutos.csv`: Planilha com o conjunto de dados inicial (antes da prepação).
-- `dados_preparados.csv`: Planilha com o conjunto de dados final expandido e preparado.
-- `analise_projeto.ipynb`: Arquivo com o código-fonte utilizado para a análise, incluindo a preparação dos dados, a aplicação das técnicas de mineração e a interpretação dos resultados.
+* `README.md`: Este arquivo.
+* `dados_brutos.csv`: Planilha com o conjunto de dados inicial.
+* `dados_limpos.csv`: Planilha com o conjunto de dados final, após a preparação.
+* `analise_projeto.ipynb`: Arquivo com o código-fonte utilizado para a análise, incluindo a preparação dos dados, a aplicação das técnicas de mineração e a interpretação dos resultados.
+* `Relatório da Análise dos Dados.md`: Análise e interpretação dos dados em formato de relatório.
