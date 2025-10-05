@@ -40,9 +40,3 @@ Com base na segmentação e na pontuação de risco, propomos as seguintes açõ
 - **<ins>Foco em Incentivo à Participação</ins>:**
   - **Público-alvo:** Alunos dos **Clusters 1 e 2**.
   - **Proposta:** Criar programas e incentivos para engajar esses alunos em atividades extracurriculares e programas de apoio. O aumento da participação pode fortalecer o vínculo dos alunos com a instituição e melhorar a frequência, um fator crítico para a evasão em ambos os grupos de alto risco.
-  - **Público-alvo:** Alunos com alto índice de faltas, especialmente no **Cluster 1**.
-  - **Proposta:** Disponibilizar aconselhamento para identificar as causas do absenteísmo. O apoio psicopedagógico pode ajudar a resolver problemas que impedem a frequência regular, mantendo o aluno engajado com a instituição.
-
-- **Foco em Incentivo à Participação:**
-  - **Público-alvo:** Alunos dos **Clusters 1 e 2**.
-  - **Proposta:** Criar programas e incentivos para engajar esses alunos em atividades extracurriculares e programas de apoio. O aumento da participação pode fortalecer o vínculo dos alunos com a instituição e melhorar a frequência, um fator crítico para a evasão em ambos os grupos de alto risco.
